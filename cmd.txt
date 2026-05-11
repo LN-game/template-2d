@@ -1,0 +1,2 @@
+bun create pixi.js
+bun add -D vite-plugin-singlefile

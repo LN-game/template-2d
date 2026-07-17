@@ -1,6 +1,7 @@
 import { Application, extend, useApplication, useTick } from "@pixi/react";
 import { Assets, Container, Sprite, Texture } from "pixi.js";
 import { useEffect, useRef, useState } from "react";
+import bunnyUrl from "./assets/bunny.png";
 
 // extend tells @pixi/react what Pixi.js components are available
 extend({
@@ -18,7 +19,7 @@ const BunnySprite = () => {
   // Preload the sprite if it hasn't been loaded yet
   useEffect(() => {
     if (texture === Texture.EMPTY) {
-      Assets.load("/assets/bunny.png").then((result) => {
+      Assets.load(bunnyUrl).then((result) => {
         setTexture(result);
       });
     }

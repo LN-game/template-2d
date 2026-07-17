@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@pixi/react": "^8.0.5",
+    "lucide-react": "^1.25.0",
     "pixi.js": "^8.19.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -29,6 +31,7 @@
     "prettier": "^3.9.5",
     "typescript": "^7.0.2",
     "typescript-eslint": "^8.64.0",
+    "unocss": "^66.7.5",
     "vite": "^8.1.5",
     "vite-plugin-singlefile": "^2.3.3"
   }

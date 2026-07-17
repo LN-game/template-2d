@@ -1,2 +1,3 @@
 bun create pixi.js
-bun add -D vite-plugin-singlefile
+bun add -D vite-plugin-singlefile unocss
+bun add zustand lucide-react
